@@ -7,7 +7,7 @@ const LoginScreen = ({ navigation }) => {
 
   const handleLogin = () => {
     if (email === 'admin@admin.com' && password === '123456') {
-      navigation.navigate('Home');
+      navigation.navigate('HomeDrawer');
     } else {
       Alert.alert('Erro', 'Usuário ou senha incorretos!');
     }
